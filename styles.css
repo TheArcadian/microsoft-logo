@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    display: grid;
+    place-items: center;
+    background: azure;
+}
+
+.microsoft-logo {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: #f35325;
+}
+
+.green {
+    background-color: #81BC06;
+}
+
+.blue {
+    background-color: #05A6F0;
+}
+
+.yellow {
+    background-color: #FFBA08;
+}
+
+.microsoft-logo {
+    background-color: #f25022;
+    box-shadow:
+        220px 0 0 0 #7fba00,
+        0 2220px 0 0 #00a4ef,
+        220px 220px 0 0 #ffb900;
+
+    height: 200px;
+    width: 200px;
+}
